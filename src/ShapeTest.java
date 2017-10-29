@@ -8,6 +8,9 @@ public class ShapeTest {
         System.out.println("Pole kola: " + shapeCalculator.circleArea((Circle) circ1));
         System.out.println("Pole kola: " + shapeCalculator.circleArea(circ2));
 
+        Rectangle rec1 = new Rectangle("Prost", 3,4);
+        System.out.println("Prostokat: " + shapeCalculator.rectangleArea(rec1));
+
 
         Shape ball1 = new Ball("Kula", 1, 3, 5, 13);
         Shape cube1 = new Cube("Kostka", 1, 1, 2, 3);
